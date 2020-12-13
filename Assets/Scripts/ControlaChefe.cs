@@ -12,6 +12,7 @@ public class ControlaChefe : MonoBehaviour, IMatavel {
     public Image imagemSlider;
     public Color corVidaMaxima;
     public Color corVidaMinima;
+    public GameObject particulaSangue;
 
     private Transform jogador;
     private NavMeshAgent agente;
@@ -61,6 +62,10 @@ public class ControlaChefe : MonoBehaviour, IMatavel {
         if (statusChefe.vida <= 0) {
             Morrer();
         }
+    }
+
+    public void ParticulaSangue(Vector3 posicao, Quaternion rotacao) {
+        Instantiate(particulaSangue, posicao, rotacao);
     }
 
     public void Morrer() {

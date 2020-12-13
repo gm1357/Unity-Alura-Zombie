@@ -9,6 +9,7 @@ public class ControlaZumbi : MonoBehaviour, IMatavel {
     public GameObject kitMedico;
     [HideInInspector]
     public GeradorZumbis meuGerador;
+    public GameObject particulaSangue;
     
     private ControlaJogador controlaJogador;
     private MovimentaPersonagem movimentaZumbi;
@@ -95,6 +96,10 @@ public class ControlaZumbi : MonoBehaviour, IMatavel {
         if (statusZumbi.vida <= 0) {
             Morrer();
         }
+    }
+
+    public void ParticulaSangue(Vector3 posicao, Quaternion rotacao) {
+        Instantiate(particulaSangue, posicao, rotacao);
     }
 
     public void Morrer() {

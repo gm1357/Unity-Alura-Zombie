@@ -649,6 +649,7 @@ MonoBehaviour:
   somMorte: {fileID: 8300000, guid: 907a29418d825404b8e1284aa1f5f28c, type: 3}
   kitMedico: {fileID: 1060151288946202, guid: 6150c6f66b7034ec5b3672478195682a, type: 3}
   meuGerador: {fileID: 0}
+  particulaSangue: {fileID: 8675427840438353675, guid: 1594e228cf3f13d4998cd9c910f76834, type: 3}
 --- !u!54 &4957982124022304160
 Rigidbody:
   m_ObjectHideFlags: 0

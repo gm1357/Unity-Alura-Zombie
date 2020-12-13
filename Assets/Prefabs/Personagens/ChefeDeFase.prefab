@@ -564,6 +564,7 @@ MonoBehaviour:
   imagemSlider: {fileID: 1998085406}
   corVidaMaxima: {r: 0.53333336, g: 0.8773585, b: 0.3764706, a: 1}
   corVidaMinima: {r: 1, g: 0.5137255, b: 0.5137255, a: 1}
+  particulaSangue: {fileID: 8675427840438353675, guid: 1594e228cf3f13d4998cd9c910f76834, type: 3}
 --- !u!195 &1494876220
 NavMeshAgent:
   m_ObjectHideFlags: 0
